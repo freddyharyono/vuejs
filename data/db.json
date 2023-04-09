@@ -30,5 +30,13 @@
       "password": "123",
       "id": 6
     }
+  ],
+  "test": [
+    {
+      "name": "Toko surya ",
+      "contact": "alamak 123",
+      "address": "100000000000",
+      "id": 1
+    }
   ]
 }

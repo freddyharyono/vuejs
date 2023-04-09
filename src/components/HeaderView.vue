@@ -1,15 +1,20 @@
 <template>
     <div class="nav">
-        <a href="#">Home</a>
-        <a href="#">Add</a>
-        <a href="#">Update</a>
-        <a href="#">LogOut</a>
+        <router-link to="/">Home</router-link>
+        <router-link to="/add">Add</router-link>
+        <a v-on:click="logout">LogOut</a>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'HeaderView'
+    name: 'HeaderView',
+    methods:{
+        logout(){
+            localStorage.clear();
+            this.$router.push({name: "LoginView"})
+        },
+    },
 }
 </script>
 

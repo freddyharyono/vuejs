@@ -24,11 +24,12 @@ body {
 }
 
 .logo {
-  width: 100px;
+  width: 150px;
+  margin-top: 25px;
 }
 
 .register input,
-.login input {
+.login input, .add input, .update input {
   width: 250px;
   height: 35px;
   padding-left: 20px;
@@ -42,7 +43,7 @@ body {
 }
 
 .register button,
-.login button {
+.login button, .add button, .update button {
   width: 200px;
   height: 50px;
   border: 1px solid lightblue;
