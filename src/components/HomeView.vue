@@ -63,7 +63,7 @@ export default {
     filteredTest() {
         if (this.search) {
             return this.test.filter((item) => {
-                return item.name.toLowerCase().includes(this.search.toLowerCase()) || item.address.toLowerCase().includes(this.search.toLowerCase());
+                return item.name.toLowerCase().includes(this.search.toLowerCase()) || item.contact.toLowerCase().includes(this.search.toLowerCase());
             });
         } else {
             return this.test;
